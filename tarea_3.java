@@ -1,13 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.ciclos_cristian;
+import java.io.IOException;
+public class Ejercicio3 {
+    public static void main(String[] args) throws IOException {
+        int i=0, e=0;
+        do {
+            e += i++;
+        } while (i<=10);
+        System.out.println(e);
+        i = 0;
+        e = 0;
+        while (i<=10) {
+            e += i++;
+        }
+        System.out.println(e);
+        e = 0;
+        for (i=0;i<=10;i++) {
+            e += i;
+        }
+        System.out.println(e);
+    }
 
-/**
- *
- * @author SenaManana
- */
-public class tarea_3 {
-    
 }
+/*
+Cree una clase donde desarrolle un programa que permita obtener la suma de los primeros 10 números naturales, esto debe realizarse usando los 3 ciclos 
+explicados anteriormente, verifique el funcionamiento y compárelos.
+*/
